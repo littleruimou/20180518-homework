@@ -2,10 +2,10 @@
 #include <stdlib.h>
 int main()
 {
-    int n;
+    int grade;
     printf("Please enter your grade(0-100):");
-    scanf("%d",&n);
-    switch (n/10)  //眔Θ罿计 
+    scanf("%d",&grade);
+    switch (grade/10)  //眔Θ罿计 
     {
     case 10:  //100だ纔单 
     case 9:   //90だ纔单 
